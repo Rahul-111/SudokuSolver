@@ -1,0 +1,38 @@
+.StyleGrid {
+  display: grid;
+  width: 30;
+  height: 30;
+  margin: 0;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: auto;
+  grid-template: repeat(9, 0fr) / repeat(9, 0fr);
+}
+.Style {
+  width: 30px;
+  padding: 10px;
+  margin: 0px;
+  border: 2px solid #218f76;
+  background-color: #10a881;
+  border-radius: 8px;
+}
+.EmptySq {
+  width: 30px;
+  padding: 10px;
+  margin: 0px;
+  border: 2px solid #218f76;
+  border-radius: 8px;
+  background-color: #74b9ff;
+}
+.button {
+  background-color: #4834df;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  border-radius: 12px;
+}
